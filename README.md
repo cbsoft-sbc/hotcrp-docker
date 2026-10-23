@@ -52,3 +52,10 @@ To restart the application without affecting the database or persistent data:
 ```bash
 docker compose up -d --build
 ```
+
+or
+
+```bash
+docker compose build --pull hotcrp
+docker compose up -d --force-recreate hotcrp
+```
